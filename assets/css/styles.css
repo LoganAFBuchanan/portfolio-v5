@@ -1,0 +1,277 @@
+h1, h2, h3, h4{
+  font-family: 'Zilla Slab', serif;
+  font-weight:700;
+}
+
+p, figcaption, a, span{
+  font-family: 'Zilla Slab', serif;
+  font-weight:400;
+}
+
+code{
+  display: block;
+  font-family: 'Roboto Mono', monospace;
+
+  padding: 1rem;
+
+  background-color: #dfdfdf;
+}
+
+h1{
+  font-size: 4.2rem;
+}
+
+h2{
+  font-size: 3rem;
+
+  margin-top:2rem;
+  margin-bottom:1rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+h4{
+  font-size: 1rem;
+}
+
+p{
+  max-width: 37.5rem;
+}
+
+a{
+  color: #0ead69;
+}
+
+a:focus, a:active{
+  color: #0a794a;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+/* Generic Classes START */
+
+.section-line{
+  border-bottom: 3px solid #540d6e;
+  margin-bottom: 1.5rem;
+  display:inline-block;
+}
+
+/* Generic Classes END */
+
+/* Header Styles START */
+
+header{
+  text-align:center;
+}
+
+header h3{
+  font-size: 2rem;
+  font-weight: 400;
+
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+
+  color: #3bceac;
+}
+
+header h1{
+  margin-bottom: 0.5rem;
+}
+
+/* Header Styles END */
+
+
+/* Nav Styles START */
+
+nav{
+  text-align:center;
+}
+
+nav ul{
+  list-style-type:none;
+  padding-left:0;
+}
+
+nav li{
+  display:inline-block;
+  line-height:0;
+
+  padding: 0 2rem;
+}
+
+nav h3{
+  transition:transform 0.3s;
+}
+
+nav li:hover h3, nav li:active h3, nav li:focus h3{
+  transform: scale(1.3);
+  transition:transform 0.3s;
+}
+
+/* Nav Styles END */
+
+/* Footer Styles START */
+
+footer{
+  text-align:center;
+  padding:2rem;
+}
+
+footer h4{
+  margin:0.5rem;
+}
+
+/* Footer Styles END */
+
+/* Project Block Styles START */
+
+.project-block#project-1{
+  border-top:5px solid #ffd23f;
+}
+
+.project-block#project-2{
+  border-top:5px solid #0ead69;
+}
+
+.project-block#project-3{
+  border-top:5px solid #540d6e;
+}
+
+.project-block h3{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+}
+
+.project-block h4{
+  color:#3bceac;
+  margin-top:0.5rem;
+  margin-bottom:1rem;
+}
+
+#project-1-image{
+  background:url('http://placehold.it/500x300');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:15rem;
+  transition:height .3s;
+}
+
+
+
+/* Project Block Styles END */
+
+/* Button Styles START */
+
+.button.primary{
+  padding: 0.5rem 1.5rem;
+  background-color: #0ead69;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  font-size: 1.3rem;
+  border: 1px solid #0ead69;
+  transition:background-color .3s;
+}
+
+.button.primary:active, .button.primary:hover{
+  background-color:#0a794a;
+  text-decoration:underline;
+  transition:background-color .3s;
+}
+
+.button.secondary{
+  padding: 0.5rem 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  font-size: 1.3rem;
+  border: 1px solid #0ead69;
+  transition:color .3s;
+}
+
+.button.secondary:active, .button.secondary:hover{
+  color:#0a794a;
+  text-decoration:underline;
+  border-color:white;
+  transition:color .3s;
+}
+
+/* Button Styles END */
+
+/* Example Styles START */
+
+h1.example, h2.example, h3.example, h4.example{
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h3.regular{
+  font-weight:400;
+}
+
+
+/* Example Styles END */
+
+/* COLOUR SWATCH STYLES START */
+
+.colour-1, .colour-2, .colour-3, .colour-4, .colour-5{
+  min-height: 10rem;
+}
+
+.colour-1{
+  background-color: #000000;
+}
+
+.colour-2{
+  background-color: #FFFFFF;
+}
+
+.colour-3{
+  background-color: #0ead69;
+}
+
+.colour-4{
+  background-color: #540d6e;
+}
+
+.colour-5{
+  background-color: #ffd23f;
+}
+
+.colour-swatches div span{
+  text-align: center;
+  display: block;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  color: #5b5b5b;
+}
+
+
+
+/* COLOUR SWATCH STYLES END */
+
+
+@media (min-width:55rem){
+  #project-1-image{
+    background:url('http://placehold.it/500x300');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:0;
+    transition:height .3s;
+  }
+
+  .project-block h3{
+    margin-top:0;
+  }
+
+  .project-block:hover #project-1-image{
+    height:11rem;
+    transition:height .3s;
+  }
+}

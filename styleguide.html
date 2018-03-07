@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Logan Buchanan - Portfolio Styleguide - Main Page</title>
+
+  <meta name="author" content="Logan Buchanan">
+  <meta name="description" content="I make games and websites. This site shows some of the games and websites that I have made.">
+  <meta name="keywords" content="Logan, Buchanan, developer, designer, IAT, SIAT, Interactive Arts">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+
+  <link rel="stylesheet" href="assets/css/grids.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+
+</head>
+<body>
+
+  <main>
+
+    <header>
+      <h1>Logan Buchanan</h1>
+      <h3>I make styleguides</h3>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#atoms"><h3>Atoms</h3></a></li>
+        <li><a href="#molecules"><h3>Molecules</h3></a></li>
+        <li><a href="#grids"><h3>Grids</h3></a></li>
+        <li><a href="#colour"><h3>Colour & Type</h3></a></li>
+      </ul>
+    </nav>
+
+    <section id="content">
+
+      <section id="atoms">
+        <h2>Atoms</h2>
+
+        <h3 class="section-line">Headers</h3>
+        <h1 class="example">Header 1</h1>
+        <h2 class="example">Header 2</h2>
+        <h3 class="example">Header 3</h3>
+        <h4 class="example">Header 4</h4>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;h1&#x3E;Header 1&#x3C;/h1&#x3E;<br>
+&#x3C;h2&#x3E;Header 2&#x3C;/h2&#x3E;<br>
+&#x3C;h3&#x3E;Header 3&#x3C;/h3&#x3E;<br>
+&#x3C;h4&#x3E;Header 4&#x3C;/h4&#x3E;<br>
+        </code>
+
+        <h3 class="section-line">Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sem non ipsum malesuada fringilla sit amet a mi. Fusce vitae massa massa. Vivamus at purus quis sem dignissim convallis. Integer blandit massa a diam ultricies, eget congue massa finibus. Ut semper mauris nec sapien convallis, sit amet auctor nibh cursus. Curabitur dapibus tincidunt hendrerit. Vestibulum ac ornare ex. Phasellus accumsan dui ex, vitae euismod neque scelerisque quis.</p>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;p&#x3E;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu sem non ipsum malesuada fringilla sit amet a mi. Fusce vitae massa massa. Vivamus at purus quis sem dignissim convallis. Integer blandit massa a diam ultricies, eget congue massa finibus. Ut semper mauris nec sapien convallis, sit amet auctor nibh cursus. Curabitur dapibus tincidunt hendrerit. Vestibulum ac ornare ex. Phasellus accumsan dui ex, vitae euismod neque scelerisque quis.&#x3C;/p&#x3E;
+        </code>
+
+        <h3 class="section-line">In-Text Links</h3>
+        <div>
+          <a href="#atoms">[Example Link]</a>
+        </div>
+
+        <h4>Code Example</h4>
+        <code>&#x3C;a href=&#x22;#atoms&#x22;&#x3E;[Example Link]&#x3C;/a&#x3E;</code>
+
+        <h3 class="section-line">Buttons</h3>
+        <div>
+          <a href="#atoms" class="button primary">Primary</a>
+          <a href="#atoms" class="button secondary">Secondary</a>
+        </div>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;a href=&#x22;#atoms&#x22; class=&#x22;button primary&#x22;&#x3E;Primary&#x3C;/a&#x3E;<br>
+          &#x3C;a href=&#x22;#atoms&#x22; class=&#x22;button secondary&#x22;&#x3E;Secondary&#x3C;/a&#x3E;
+        </code>
+
+
+      </section>
+      <section id="molecules">
+        <h2>Molecules</h2>
+
+        <h3 class="section-line">Navigation</h3>
+        <nav>
+          <ul>
+            <li><a href="#games"><h3>Games</h3></a></li>
+            <li><a href="#otherthings"><h3>Other Things</h3></a></li>
+            <li><a href="#About"><h3>About Me</h3></a></li>
+          </ul>
+        </nav>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;nav&#x3E;<br>
+          &#x3C;ul&#x3E;<br>
+          &#x3C;li&#x3E;&#x3C;a href=&#x22;#games&#x22;&#x3E;&#x3C;h3&#x3E;Games&#x3C;/h3&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;<br>
+          &#x3C;li&#x3E;&#x3C;a href=&#x22;#otherthings&#x22;&#x3E;&#x3C;h3&#x3E;Other Things&#x3C;/h3&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;<br>
+          &#x3C;li&#x3E;&#x3C;a href=&#x22;#About&#x22;&#x3E;&#x3C;h3&#x3E;About Me&#x3C;/h3&#x3E;&#x3C;/a&#x3E;&#x3C;/li&#x3E;<br>
+          &#x3C;/ul&#x3E;<br>
+          &#x3C;/nav&#x3E;
+        </code>
+
+        <h3 class="section-line">Project Section</h3>
+
+        <div class="grid-row">
+          <div class="col one-3 project-block" id="project-1">
+            <div id="project-1-image"></div>
+            <h3>Project Name</h3>
+            <h4>Tool Info and Timeline</h4>
+            <p>Aenean sed augue ultrices, mattis arcu sit amet, pharetra risus. Nam lacinia semper malesuada. Fusce vel nunc a tortor mattis vehicula nec nec est. In tristique ut orci vitae imperdiet.</p>
+
+          </div>
+
+          <div class="col one-3 project-block" id="project-2">
+            <div id="project-1-image"></div>
+            <h3>Project Name</h3>
+            <h4>Tool Info and Timeline</h4>
+            <p>Aenean sed augue ultrices, mattis arcu sit amet, pharetra risus. Nam lacinia semper malesuada. Fusce vel nunc a tortor mattis vehicula nec nec est. In tristique ut orci vitae imperdiet.</p>
+
+          </div>
+
+          <div class="col one-3 project-block" id="project-3">
+            <div id="project-1-image"></div>
+            <h3>Project Name</h3>
+            <h4>Tool Info and Timeline</h4>
+            <p>Aenean sed augue ultrices, mattis arcu sit amet, pharetra risus. Nam lacinia semper malesuada. Fusce vel nunc a tortor mattis vehicula nec nec est. In tristique ut orci vitae imperdiet.</p>
+
+          </div>
+
+
+        </div>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;div class=&#x22;col one-3 project-block&#x22; id=&#x22;project-1&#x22;&#x3E;<br>
+          &#x3C;div id=&#x22;project-1-image&#x22;&#x3E;&#x3C;/div&#x3E;<br>
+          &#x3C;h3&#x3E;Project Name&#x3C;/h3&#x3E;<br>
+          &#x3C;h4&#x3E;Tool Info and Timeline&#x3C;/h4&#x3E;<br>
+          &#x3C;p&#x3E;Aenean sed augue ultrices, mattis arcu sit amet, pharetra risus. Nam lacinia semper malesuada. Fusce vel nunc a tortor mattis vehicula nec nec est. In tristique ut orci vitae imperdiet.&#x3C;/p&#x3E;<br>
+          &#x3C;/div&#x3E;<br>
+        </code>
+
+      </section>
+
+      <section id="grids">
+        <h2>Grid System</h2>
+
+        <div class="grid-row example">
+          <div class="one-1 col"><h4>.one-1</h4></div>
+        </div>
+        <div class="grid-row example">
+          <div class="one-2 col"><h4>.one-2</h4></div>
+          <div class="one-2 col"><h4>.one-2</h4></div>
+        </div>
+        <div class="grid-row example">
+          <div class="one-3 col"><h4>.one-3</h4></div>
+          <div class="one-3 col"><h4>.one-3</h4></div>
+          <div class="one-3 col"><h4>.one-3</h4></div>
+        </div>
+        <div class="grid-row example">
+          <div class="two-3 col"><h4>.two-3</h4></div>
+          <div class="one-3 col"><h4>.one-3</h4></div>
+        </div>
+        <div class="grid-row example">
+          <div class="one-4 col"><h4>.one-4</h4></div>
+          <div class="one-4 col"><h4>.one-4</h4></div>
+          <div class="one-4 col"><h4>.one-4</h4></div>
+          <div class="one-4 col"><h4>.one-4</h4></div>
+        </div>
+        <div class="grid-row example">
+          <div class="three-4 col"><h4>.three-4</h4></div>
+          <div class="one-4 col"><h4>.one-4</h4></div>
+        </div>
+
+        <h4>Code Example</h4>
+        <code>
+          &#x3C;div class=&#x22;grid-row example&#x22;&#x3E;<br>
+          &#x3C;div class=&#x22;one-2 col&#x22;&#x3E;&#x3C;h4&#x3E;.one-2&#x3C;/h4&#x3E;&#x3C;/div&#x3E;<br>
+          &#x3C;div class=&#x22;one-2 col&#x22;&#x3E;&#x3C;h4&#x3E;.one-2&#x3C;/h4&#x3E;&#x3C;/div&#x3E;<br>
+          &#x3C;/div&#x3E;
+        </code>
+
+      </section>
+
+      <section id="colour">
+        <h2>Colour & Type</h2>
+
+        <h3 class="section-line">Colour Swatches</h3>
+
+        <div class="grid-row colour-swatches">
+          <div class="col one-4 colour-1">
+            <span>#000000</span>
+          </div>
+          <div class="col one-4 colour-2">
+            <span>#FFFFFF</span>
+          </div>
+          <div class="col one-4 colour-3">
+            <span>#0EAD69</span>
+          </div>
+          <div class="col one-4 colour-4">
+            <span>#540D6E</span>
+          </div>
+          <div class="col one-4 colour-5">
+            <span>#FFD23F</span>
+          </div>
+        </div>
+
+        <h3 class="section-line">Zilla Slab Regular</h3>
+        <h3 class="regular example">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+          abcdefghijklmnopqrstuvwxyz<br>
+          0123456789
+        </h3>
+
+        <h3 class="section-line">Zilla Slab Bold</h3>
+        <h3 class="example">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+          abcdefghijklmnopqrstuvwxyz<br>
+          0123456789
+        </h3>
+
+
+
+
+      </section>
+
+    </section>
+
+
+  </main>
+
+  <footer>
+
+    <h4>Built (Summoned! (Beckoned from the great beyond!)) by Logan Buchanan</h4>
+    <a href="index.html"><h4>Main Site</h4></a>
+
+  </footer>
+
+</body>
+
+</html>
