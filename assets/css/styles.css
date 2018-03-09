@@ -153,6 +153,11 @@ footer h4{
   margin-bottom:1rem;
 }
 
+.project-block a{
+  color:black;
+  text-decoration: none;
+}
+
 #project-1-image{
   background:url('http://placehold.it/500x300');
   background-size: cover;
