@@ -24,6 +24,14 @@
 </head>
 <body>
 
+  <div id="metanav">
+    <ul>
+      <li><a href="https://github.com/LoganAFBuchanan"><img src="assets\img\git-logo.png"></a></li>
+      <li><a href="https://www.linkedin.com/in/logan-buchanan-90b8b3126/"><img src="assets\img\linkedin-logo.png"></a></li>
+      <li><a href="https://twitter.com/LoganBuchanan"><img src="assets\img\twitter.png"></a></li>
+    </ul>
+  </div>
+
   <main>
 
     <header>
@@ -42,15 +50,66 @@
     <section id="content">
 
       <section id="project-info">
-        <img src="http://placehold.it/1000x500/">
-        <h2>Project Title</h2>
-        <h4>Tools:</h4>
-
+        <h2 id="project-1">Monster Sad!</h2>
+        <h3>Designer/Programmer/Artist</h3>
+        <h4><strong>Tools:</strong> Lua, PICO-8</h4>
+        <h4><strong>Timeline:</strong> 3 days</h4>
+        <h4><strong>Team:</strong> Solo</h4>
       </section>
 
-      <section id="project-analysis">
+      <section class="monster" id="project-analysis">
 
-        <p>Vestibulum ornare eros eu mi lobortis, vel placerat risus pellentesque. Nam scelerisque vehicula feugiat. Donec auctor elit turpis, eu iaculis velit suscipit vel. Suspendisse blandit suscipit est, et lacinia dui venenatis at. Suspendisse potenti. In semper sed enim quis maximus. In aliquet neque vitae imperdiet auctor. Quisque mollis ante et laoreet varius.</p>
+        <div class="grid-row">
+
+          <div class="col one-3">
+            <img src="assets\img\monster-Summary.gif">
+          </div>
+
+          <div class="col two-3">
+            <h3>Context</h3>
+            <p>Monster Sad! is a game I designed and coded in Lua using the PICO-8 game engine that I created for the 33rd Ludum Dare game jam competition in August of 2015. The theme for this project was “You are the Monster”. Monster Sad! places the player in the role of a depressed troll who only finds happiness through destruction. Its core mechanic is balancing the troll’s happiness with its health.</p>
+          </div>
+
+        </div>
+
+        <div class="grid-row">
+
+          <div class="col two-3">
+            <h3>Ideation</h3>
+            <p>To begin, I quickly came up with several concepts that fit within the theme of “You are the Monster”. My goals at this point of the project were to keep the scope of the project in check and to not end up with a game that felt unfinished. In order to keep on schedule I made a hard cut off at 2 hours in order to begin work on the prototype, and settled on the concept of a depressed troll.</p>
+          </div>
+
+          <div class="col one-3">
+            <img src="assets\img\monster-balance.gif">
+          </div>
+
+        </div>
+
+        <div class="grid-row">
+
+          <div class="col one-3">
+            <img src="assets\img\monster-process.gif">
+          </div>
+
+          <div class="col two-3">
+            <h3>Implementation</h3>
+            <p>The initial systems implemented were fairly straightforward to build. This included movement, animations, basic graphics, and collisions. The more challenging aspects came in higher level navigation. This is the act of keeping track of the player as they move throughout the different screens of the world. My aim for the feeling of the game was to emulate the original Legend of Zelda (1986) and give the player a sense of exploration on top of the destruction mechanic.</p>
+          </div>
+
+        </div>
+
+        <div class="grid-row">
+
+          <div class="col two-3">
+            <h3>Results</h3>
+            <p>Due to time constraints some of the intended features had to be cut (ie: Secondary player abilities), but based on early player testing the game was turning out to be a very engaging experience. I dedicated the last 3 hours of the competition to polishing the game which allowed me to remove almost all of the bugs from the final game. In the end, out of over 2700 entries Monster Sad! was placed in the top 300 in overall quality and top 200 in fun.</p>
+          </div>
+
+          <div class="col one-3">
+            <img src="assets\img\monster-result.gif">
+          </div>
+
+        </div>
 
       </section>
 
