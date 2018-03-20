@@ -312,6 +312,9 @@ footer h4{
 /* Button Styles START */
 
 .button.primary{
+
+  display: inline-block;
+  margin-top: 0.3rem;
   padding: 0.5rem 1.5rem;
   background-color: #0ead69;
   color: white;
@@ -330,6 +333,8 @@ footer h4{
 }
 
 .button.secondary{
+  display: inline-block;
+  margin-top: 0.3rem;
   padding: 0.5rem 1.5rem;
   font-weight: 700;
   text-decoration: none;
