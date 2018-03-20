@@ -75,6 +75,14 @@ img{
   display:inline-block;
 }
 
+.monster .section-line{
+  border-color: #ffd23f;
+}
+
+.slaw .section-line{
+ border-color: #0ead69;
+}
+
 .no-margin-top{
   margin-top:0;
 }
