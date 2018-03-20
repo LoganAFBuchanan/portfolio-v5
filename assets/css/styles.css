@@ -63,6 +63,10 @@ img{
   height:auto;
 }
 
+#other-things{
+  margin-top:4rem;
+}
+
 /* Generic Classes START */
 
 .section-line{
@@ -434,13 +438,13 @@ h3.regular{
   }
 
   #project-analysis .grid-row{
-    margin-bottom:2rem;
+    margin-bottom:4rem;
     display:flex;
     flex-direction: row;
   }
 
   #project-analysis.slaw .grid-row{
-    margin-bottom:3rem;
+    margin-bottom:4rem;
 
   }
 
