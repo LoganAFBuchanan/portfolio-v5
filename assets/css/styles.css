@@ -91,6 +91,10 @@ img{
   margin-top:0;
 }
 
+img{
+  transition:filter 1s;
+}
+
 img.blur {
 	filter:blur(5px);
 	transition:filter 1s;
