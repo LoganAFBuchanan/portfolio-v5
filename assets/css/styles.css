@@ -250,6 +250,18 @@ footer h4{
   border-top:5px solid #540d6e;
 }
 
+.project-block#project-4, h2#project-4{
+  border-top:5px solid #A6192E;
+}
+
+.project-block#project-5, h2#project-5{
+  border-top:5px solid #e98300;
+}
+
+.project-block#project-6, h2#project-6{
+  border-top:5px solid black;
+}
+
 .project-block h3{
   margin-top:0.5rem;
   margin-bottom:0.5rem;
@@ -286,6 +298,21 @@ footer h4{
 
 #project-3-image{
   background-image:url("../img/vodya-tiny.jpg");
+  background-position:center;
+}
+
+#project-4-image{
+  background-image:url("../img/chang-tiny.png");
+  background-position:center;
+}
+
+#project-5-image{
+  background-image:url("../img/safe-tiny.png");
+  background-position:center;
+}
+
+#project-6-image{
+  background-image:url("../img/borneo-tiny.png");
   background-position:center;
 }
 
