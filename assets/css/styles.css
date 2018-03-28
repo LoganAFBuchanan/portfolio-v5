@@ -54,6 +54,10 @@ a{
   color: #0ead69;
 }
 
+a:hover{
+  opacity:0.8;
+}
+
 a:focus, a:active{
   color: #0a794a;
 }
@@ -188,6 +192,36 @@ footer h4{
 
 /* MetaNav Styles END */
 
+/* Bottom Nav Styles START */
+
+#bottom-nav .left:hover .material-icons{
+  transform:translateX(-5px);
+  transition: transform 0.3s;
+}
+
+#bottom-nav .right:hover .material-icons{
+  transform:translateY(-5px);
+  transition: transform 0.3s;
+}
+
+#bottom-nav a{
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+#bottom-nav .material-icons{
+  font-size:2rem;
+  vertical-align: bottom;
+  transition: transform 0.3s;
+}
+
+#bottom-nav {
+  text-align: center;
+}
+
+
+/* Bottom Nav Styles END */
+
 /* Project Block Styles START */
 
 .project-block#project-1, h2#project-1{
@@ -232,12 +266,12 @@ footer h4{
 }
 
 #project-2-image{
-  background-image:url("../img/slaw-town.png");
+  background-image:url("../img/slaw-tiny.png");
   background-position:center;
 }
 
 #project-3-image{
-  background-image:url("../img/vodya_main_map.jpg");
+  background-image:url("../img/vodya-tiny.jpg");
   background-position:center;
 }
 
@@ -460,5 +494,15 @@ h3.regular{
     margin-top:0rem;
     margin-bottom:0.5rem;
     line-height:1.5rem;
+  }
+
+  #bottom-nav .right{
+    float:right;
+    transition: transform 0.3s;
+  }
+
+  #bottom-nav .left{
+    float:left;
+    transition: transform 0.3s;
   }
 }
