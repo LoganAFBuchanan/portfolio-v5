@@ -91,6 +91,16 @@ img{
   margin-top:0;
 }
 
+img.blur {
+	filter:blur(5px);
+	transition:filter 1s;
+}
+
+img.lazyloaded{
+	filter:blur(0);
+	transition:filter 1s;
+}
+
 /* Generic Classes END */
 
 /* Header Styles START */
