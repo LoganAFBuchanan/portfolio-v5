@@ -84,7 +84,7 @@ img{
 }
 
 .slaw .section-line{
- border-color: #0ead69;
+  border-color: #0ead69;
 }
 
 .no-margin-top{
@@ -96,13 +96,20 @@ img{
 }
 
 img.blur {
-	filter:blur(5px);
-	transition:filter 1s;
+  filter:blur(5px);
+  transition:filter 1s;
 }
 
 img.lazyloaded{
-	filter:blur(0);
-	transition:filter 1s;
+  filter:blur(0);
+  transition:filter 1s;
+}
+
+hr.divide{
+  margin: 2.5rem;
+  border-color: #dadada;
+  border-style: solid;
+  border-bottom: 0;
 }
 
 /* Generic Classes END */
@@ -545,5 +552,9 @@ h3.regular{
   #bottom-nav .left{
     float:left;
     transition: transform 0.3s;
+  }
+
+  hr.divide{
+    display:none;
   }
 }
