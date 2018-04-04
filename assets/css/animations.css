@@ -1,0 +1,120 @@
+/* ADAPTED FROM https://css-tricks.com/using-multi-step-animations-transitions/ */
+
+/*  FADE IN ANIMATION   */
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform:translateY(1.5rem);
+  }
+  to   {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes upAndLeft {
+  0% {
+    opacity: 0;
+    transform:translate(5rem, 1.5rem);
+
+  }
+  33%   {
+    opacity: 1;
+    transform:translate(5rem, 0);
+  }
+
+  66%   {
+    opacity: 1;
+    transform:translate(5rem, 0);
+  }
+
+  100%  {
+    opacity: 1;
+    transform:translate(0, 0);
+
+  }
+}
+
+@keyframes justLeft {
+  0% {
+    opacity: 0;
+    transform:translateX(5rem);
+  }
+
+  66%   {
+    opacity: 0;
+    transform:translateX(5rem);
+  }
+
+  100%{
+    opacity: 1;
+    transform:translateX(0.4rem);
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+    transform:translateY(1.5rem);
+  }
+  to   {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    transform:translateY(1.5rem);
+  }
+  to   {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+    transform:translateY(1.5rem);
+  }
+  to   {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+    transform:translateY(1.5rem);
+  }
+  to   {
+    opacity: 1;
+    transform:translateY(0);
+  }
+}
+
+
+
+
+
+@media(min-width:55em){
+  header h3 .games {
+    display:inline-block;
+    opacity:0;
+    animation: upAndLeft 1.5s forwards;
+  }
+
+  header h3 .other{
+    display:inline-block;
+    opacity:0;
+    animation: justLeft 1.5s forwards;
+  }
+}

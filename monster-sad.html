@@ -18,17 +18,18 @@
 
   <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
 
-  <link rel="stylesheet" href="assets/css/grids.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/grids.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/styles.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/animations.min.css" type="text/css">
 
 </head>
 <body>
 
   <div id="metanav">
     <ul>
-      <li><a href="https://github.com/LoganAFBuchanan"><img src="assets\img\git-logo.png"></a></li>
-      <li><a href="https://www.linkedin.com/in/logan-buchanan-90b8b3126/"><img src="assets\img\linkedin-logo.png"></a></li>
-      <li><a href="https://twitter.com/LoganBuchanan"><img src="assets\img\twitter.png"></a></li>
+      <li><a href="https://github.com/LoganAFBuchanan"><img src="assets/img/git-logo.png" alt="Github Logo"></a></li>
+      <li><a href="https://www.linkedin.com/in/logan-buchanan-90b8b3126/"><img src="assets/img/linkedin-logo.png" alt="LinkedIn Logo"></a></li>
+      <li><a href="https://twitter.com/LoganBuchanan"><img src="assets/img/twitter.png" alt="Twitter Logo"></a></li>
     </ul>
   </div>
 
@@ -36,7 +37,7 @@
 
     <header>
       <h1>Logan Buchanan</h1>
-      <h3>I make games & other things</h3>
+      <h3><span class="games">I make games </span><span class="other"> & other things</span></h3>
     </header>
 
     <nav>
@@ -46,7 +47,7 @@
       </ul>
     </nav>
 
-    <section id="content">
+    <div id="content">
 
       <section id="project-info">
         <h2 id="project-1">Monster Sad!</h2>
@@ -62,8 +63,8 @@
         <div class="grid-row">
 
           <div class="col one-3">
-            <img src="assets/img/monster-pre-load.jpg" data-src="assets\img\monster-Summary.gif" class="lazyload blur">
-            <noscript><img src="assets\img\monster-Summary.gif"></noscript>
+            <img src="assets/img/monster-pre-load.jpg" data-src="assets/img/monster-Summary.gif" class="lazyload blur" alt="A troll storms out of a village, eventually stumbling upon a lone peaceful cottage. The owner of said college scrambles to the west to try and escape the terrible maw of the troll. However, he sadly succumbs to a quick and painful death.">
+            <noscript><img src="assets/img/monster-Summary.gif" alt="A troll storms out of a village, eventually stumbling upon a lone peaceful cottage. The owner of said college scrambles to the west to try and escape the terrible maw of the troll. However, he sadly succumbs to a quick and painful death."></noscript>
           </div>
 
           <div class="col one-3">
@@ -78,8 +79,8 @@
 
           <div class="col one-3"></div>
           <div class="col one-3">
-            <img src="assets/img/monster-pre-load.jpg" data-src="assets\img\monster-balance.gif" class="lazyload blur">
-            <noscript><img src="assets\img\monster-balance.gif"></noscript>
+            <img src="assets/img/monster-pre-load.jpg" data-src="assets/img/monster-balance.gif" class="lazyload blur" alt="The Troll stumbles through the royal garden and eventually up the castle steps in search of the king.">
+            <noscript><img src="assets/img/monster-balance.gif" alt="The Troll stumbles through the royal garden and eventually up the castle steps in search of the king."></noscript>
           </div>
           <div class="col one-3">
             <h3 class="section-line">Ideation</h3>
@@ -95,8 +96,8 @@
 
 
           <div class="col one-3">
-            <img src="assets/img/monster-pre-load.jpg" data-src="assets\img\monster-process.gif" class="lazyload blur">
-            <noscript><img src="assets\img\monster-process.gif"></noscript>
+            <img src="assets/img/monster-pre-load.jpg" data-src="assets/img/monster-process.gif" class="lazyload blur" alt="An early example of the Troll moving through empty rooms. This was a prototype to test map movement.">
+            <noscript><img src="assets/img/monster-process.gif" alt="An early example of the Troll moving through empty rooms. This was a prototype to test map movement."></noscript>
           </div>
           <div class="col one-3">
             <h3 class="section-line">Implementation</h3>
@@ -111,8 +112,8 @@
 
           <div class="col one-3"></div>
           <div class="col one-3">
-            <img src="assets/img/monster-pre-load.jpg" data-src="assets\img\monster-result.gif" class="lazyload blur">
-            <noscript><img src="assets\img\monster-result.gif"></noscript>
+            <img src="assets/img/monster-pre-load.jpg" data-src="assets/img/monster-result.gif" class="lazyload blur" alt="The Troll exits his cave and defeats two guardsmen before moving on to the ill-fated village.">
+            <noscript><img src="assets/img/monster-result.gif" alt="The Troll exits his cave and defeats two guardsmen before moving on to the ill-fated village."></noscript>
           </div>
           <div class="col one-3">
             <h3 class="section-line">Results</h3>
@@ -125,11 +126,11 @@
 
       </section>
 
-    </section>
+    </div>
 
     <section id="bottom-nav">
-      <a class="left" href="index.html"><h3><i class="material-icons">&#xE314;</i> Back to Games</h3></a>
-      <a class="right" href="#project-info"><h3><i class="material-icons">&#xE316;</i> To Top</h3></a>
+      <a class="left" href="index.html"><h3><i class="material-icons">keyboard_arrow_left</i> Back to Games</h3></a>
+      <a class="right" href="#metanav"><h3><i class="material-icons">keyboard_arrow_up</i> To Top</h3></a>
     </section>
 
 
@@ -138,7 +139,7 @@
   <footer>
 
     <h4>Built (Summoned! (Beckoned from the great beyond!)) by Logan Buchanan</h4>
-    <a href="styleguide.html"><h4>Styleguide</h4></a>
+    <h4><a href="styleguide.html">Styleguide</a> | <a href="https://github.com/LoganAFBuchanan/portfolio-v5" target="_blank">Github</a> | <a href="citations.html">Citations</a></h4>
 
   </footer>
   <script src="assets/js/lazy-sizes.min.js"></script>

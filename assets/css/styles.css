@@ -38,7 +38,7 @@ h2{
   margin-bottom:1rem;
 }
 
-h3{
+h3, h3 span{
   font-size: 1.75rem;
 }
 
@@ -120,7 +120,7 @@ header{
   text-align:center;
 }
 
-header h3{
+header h3, header h3 span{
   font-size: 2rem;
   font-weight: 400;
 
@@ -151,7 +151,7 @@ nav ul{
 
 nav li{
   display:inline-block;
-  line-height:0;
+  line-height:1.5rem;
 
   padding: 0 2rem;
 }
@@ -176,6 +176,10 @@ footer{
 
 footer h4{
   margin:0.5rem;
+}
+
+footer h4 a{
+  font-weight:700;
 }
 
 /* Footer Styles END */
@@ -501,6 +505,10 @@ h3.regular{
 
 
 @media (min-width:55rem){
+
+  nav li{
+    line-height:0;
+  }
 
   .project-block-image{
     background-image:url('http://placehold.it/500x300');

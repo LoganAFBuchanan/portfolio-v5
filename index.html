@@ -18,17 +18,18 @@
 
   <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
 
-  <link rel="stylesheet" href="assets/css/grids.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/grids.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/styles.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/animations.min.css" type="text/css">
 
 </head>
 <body>
 
   <div id="metanav">
     <ul>
-      <li><a href="https://github.com/LoganAFBuchanan"><img src="assets\img\git-logo.png"></a></li>
-      <li><a href="https://www.linkedin.com/in/logan-buchanan-90b8b3126/"><img src="assets\img\linkedin-logo.png"></a></li>
-      <li><a href="https://twitter.com/LoganBuchanan"><img src="assets\img\twitter.png"></a></li>
+      <li><a href="https://github.com/LoganAFBuchanan"><img src="assets/img/git-logo.png" alt="Github Logo"></a></li>
+      <li><a href="https://www.linkedin.com/in/logan-buchanan-90b8b3126/"><img src="assets/img/linkedin-logo.png" alt="LinkedIn Logo"></a></li>
+      <li><a href="https://twitter.com/LoganBuchanan"><img src="assets/img/twitter.png" alt="Twitter Logo"></a></li>
     </ul>
   </div>
 
@@ -36,7 +37,7 @@
 
     <header>
       <h1>Logan Buchanan</h1>
-      <h3>I make games & other things</h3>
+      <h3><span class="games">I make games </span><span class="other"> & other things</span></h3>
     </header>
 
     <nav>
@@ -46,7 +47,7 @@
       </ul>
     </nav>
 
-    <section id="content">
+    <div id="content" class="home">
 
       <section id="games">
         <h2>Games</h2>
@@ -56,7 +57,7 @@
 
           <div class="col one-3 project-block" id="project-1">
             <a href="monster-sad.html">
-              <div class="project-block-image" id="project-1-image"></div>
+              <div class="project-block-image" id="project-1-image" aria-hidden="true"></div>
               <h3>Monster Sad!</h3>
               <h4>Designer / Programmer / Artist</h4>
               <p>Monster Sad! is a game about a depressed troll I designed and coded in Lua using the PICO-8 game engine for the 33rd Ludum Dare game jam competition in August of 2015.</p>
@@ -67,7 +68,7 @@
 
           <div class="col one-3 project-block" id="project-2">
             <a href="slaw-and-slawter.html">
-              <div class="project-block-image" id="project-2-image"></div>
+              <div class="project-block-image" id="project-2-image" aria-hidden="true"></div>
               <h3>Slaw & Slawter</h3>
               <h4>Lead Programmer / Designer</h4>
               <p>Slaw and Slawter is a game that follows the life of Amos, a retired adventurer who has opened a tavern in a small village.</p>
@@ -79,7 +80,7 @@
 
           <div class="col one-3 project-block" id="project-3">
             <a href="http://isleofvodya.com">
-              <div class="project-block-image" id="project-3-image"></div>
+              <div class="project-block-image" id="project-3-image" aria-hidden="true"></div>
               <h3>Isle of Vodya</h3>
               <h4>Dungeon Master/Web Developer</h4>
               <p>A combination campaign/web companion for 5th Edition Dungeons and Dragons. Two timelines collide on the secluded Isle of Vodya.</p>
@@ -97,7 +98,7 @@
 
           <div class="col one-3 project-block" id="project-4">
             <a href="http://beedie.sfu.ca/ccie/" target="_blank">
-              <div class="project-block-image" id="project-4-image"></div>
+              <div class="project-block-image" id="project-4-image" aria-hidden="true"></div>
               <h3>The Charles Chang Institute</h3>
               <h4>Front-End Developer/Designer</h4>
               <p>An co-op project where I designed and built a new section of the Beedie University website.</p>
@@ -109,7 +110,7 @@
 
           <div class="col one-3 project-block" id="project-5">
             <a href="http://safe.com" target="_blank">
-              <div class="project-block-image" id="project-5-image"></div>
+              <div class="project-block-image" id="project-5-image" aria-hidden="true"></div>
               <h3>Safe Software</h3>
               <h4>Front-End Developer/Designer</h4>
               <p>A 4-month co-op placement where I expanded wordpress templates and redesigned core library search results.</p>
@@ -120,7 +121,7 @@
 
           <div class="col one-3 project-block" id="project-6">
             <a href="monster-sad.html">
-              <div class="project-block-image" id="project-6-image"></div>
+              <div class="project-block-image" id="project-6-image" aria-hidden="true"></div>
               <h3>Borneo Sporenburg</h3>
               <h4>Designer/Copy Editor</h4>
               <p>A spatial design project that examined our relationship with transition in the places we live.</p>
@@ -130,7 +131,7 @@
 
       </section>
 
-    </section>
+    </div>
 
 
   </main>
@@ -138,7 +139,7 @@
   <footer>
 
     <h4>Built (Summoned! (Beckoned from the great beyond!)) by Logan Buchanan</h4>
-    <a href="styleguide.html"><h4>Styleguide</h4></a>
+    <h4><a href="styleguide.html">Styleguide</a> | <a href="https://github.com/LoganAFBuchanan/portfolio-v5" target="_blank">Github</a> | <a href="citations.html">Citations</a></h4>
 
   </footer>
 
